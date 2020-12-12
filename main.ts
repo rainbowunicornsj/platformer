@@ -352,7 +352,7 @@ list = [img`
     `]
 level = 0
 chooselevel()
-info.startCountdown(90)
+info.startCountdown(100)
 info.setScore(0)
 game.onUpdateInterval(3000, function () {
     projectile = sprites.createProjectileFromSide(img`
